@@ -1,1 +1,4 @@
 /* Enter your custom styles here */
+.reducedHeight {
+    height: calc(100% - 60px);
+   }

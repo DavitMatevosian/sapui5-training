@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="com.apress.openui5.controller.BeerAdd"
+    displayBlock="true"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+    <core:Fragment
+        fragmentName="com.apress.openui5.view.Header"
+        type="XML"
+    />
+    <Page
+        class="reducedHeight"
+        title="{i18n>BeerAdd}"
+        id="BeerAdd"
+        showNavButton="true"
+        navButtonPress="onNavBack"
+    >
+        <content>
+            <IllustratedMessage illustrationType="sapIllus-AddPeople" />
+        </content>
+    </Page>
+</mvc:View>

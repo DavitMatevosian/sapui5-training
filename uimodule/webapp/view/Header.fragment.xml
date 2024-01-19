@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+    xmlns="sap.f"
+    xmlns:m="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <ShellBar
+        title="{i18n>appTitle}"
+        secondTitle="{i18n>secondTitle}"
+        homeIcon="https://sdk.openui5.org/resources/sap/ui/documentation/sdk/images/logo_ui5.png"
+        showNotifications="true"
+        showProductSwitcher="true"
+        productSwitcherPressed="fnOpenSwitch"
+        notificationsNumber="1"
+    >
+        <profile>
+            <m:Avatar initials="DM" />
+        </profile>
+    </ShellBar>
+</core:FragmentDefinition>
